@@ -1,0 +1,3 @@
+/workspace/seglink/cpp/build/CMakeFiles/edit_cache.dir
+/workspace/seglink/cpp/build/CMakeFiles/rebuild_cache.dir
+/workspace/seglink/cpp/build/CMakeFiles/seglink.dir
