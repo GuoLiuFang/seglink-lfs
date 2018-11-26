@@ -1,4 +1,10 @@
 # SegLink
+## how to run the docker
+https://hub.docker.com/r/xxxxxxxxxxxxxxxxxxxx/cosseglink/
+sudo docker run --runtime=nvidia -it -v /home/jerry/workspace/seglink:/workspace -v /home/jerry/workspace/datasets/scene_text/icdar_2015_incidental:/mnt/datasets/scene_text/icdar_2015_incidental/ xxxxxxxxxxxxxxxxxxxx/cosseglink:0.1 bash
+source activate py36
+cd workspace/
+python manage.py train exp/sgd finetune_ic15
 
 Detecting Oriented Text in Natural Images by Linking Segments (https://arxiv.org/abs/1703.06520).
 
